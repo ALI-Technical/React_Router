@@ -5,10 +5,9 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <br />
-      <br />
-      <br />
-      <h1 style={{fontSize: 75}} className='text-center'>Home</h1>
+      <div className="home-page-div">
+        <h1 style={{ fontSize: 75 }} className='text-center'>Home</h1>
+      </div>
     </>
   )
 }
